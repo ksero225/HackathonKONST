@@ -1,0 +1,1 @@
+To start this service open start_service.bat file

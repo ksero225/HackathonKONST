@@ -1,0 +1,3 @@
+# Ignoruj pliki środowiskowe
+.env
+.env.*
