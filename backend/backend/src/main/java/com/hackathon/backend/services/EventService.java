@@ -22,7 +22,6 @@ public class EventService {
     private final EventMapper eventMapper;
 
     public EventSummaryDto createEvent(CreateEventRequest request) {
-        // pobierz użytkowników po ID
         List<UserEntity> users = userRepository.findAllById(request.getUserIds());
         Set<UserEntity> userSet = new HashSet<>(users);
 

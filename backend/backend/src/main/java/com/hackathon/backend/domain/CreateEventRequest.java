@@ -8,8 +8,8 @@ import java.util.List;
 @Getter
 @Setter
 public class CreateEventRequest {
-    private List<Long> userIds;   // ID użytkowników przypisanych do wydarzenia
-    private String description;   // opis wydarzenia
-    private Double latitude;      // miejsce (np. środek ciężkości)
+    private List<Long> userIds;
+    private String description;
+    private Double latitude;
     private Double longitude;
 }

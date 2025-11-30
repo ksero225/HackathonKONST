@@ -47,14 +47,10 @@ public class DataInit implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        //userRepository.deleteAll();
 
         List<UserEntity> users = new ArrayList<>();
 
         for (int i = 0; i < 100; i++) {
-//            UserEntity entity = generateUser(i);
-//            UserDto dto = userMapper.toDto(entity);
-//            userService.createUser(dto);
             users.add(generateUser(i));
         }
 
@@ -102,14 +98,13 @@ public class DataInit implements CommandLineRunner {
     private Map<String, Float> generateRandomTraits() {
         Map<String, Float> traits = new HashMap<>();
 
-        int count = 3 + RAND.nextInt(5); // 3–7 cech
+        int count = 3 + RAND.nextInt(5);
 
-        // robimy mutowalną kopię, na której można zrobić shuffle
         List<String> shuffled = new ArrayList<>(TRAIT_POOL);
         Collections.shuffle(shuffled, RAND);
 
         for (int i = 0; i < count; i++) {
-            float value = 0.7f + RAND.nextFloat() * 0.3f; // 0.7–1.0
+            float value = 0.7f + RAND.nextFloat() * 0.3f;
             traits.put(shuffled.get(i), value);
         }
 

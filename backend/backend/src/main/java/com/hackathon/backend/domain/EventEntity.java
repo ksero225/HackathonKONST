@@ -16,13 +16,13 @@ import java.util.Set;
 public class EventEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id; // id wydarzenia
+    private Long id;
 
     @Column(nullable = false, length = 2048)
-    private String description;   // opis wydarzenia
+    private String description;
 
     @Column(nullable = false)
-    private Double latitude;      // miejsce wybrane przez algorytm
+    private Double latitude;
 
     @Column(nullable = false)
     private Double longitude;
