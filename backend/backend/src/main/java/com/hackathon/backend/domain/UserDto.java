@@ -13,10 +13,11 @@ public class UserDto {
     private String userName;
     private String userSurname;
     private String userMail;
-    private Integer userAge;
+    private String userPassword;
+    private String userAge;
     private String userSex;
     private String userGeneratedGroup;
-    private String userDescription;
+    private Long descriptionId;
     private Double userLocationLatitude;
     private Double userLocationLongitude;
 }

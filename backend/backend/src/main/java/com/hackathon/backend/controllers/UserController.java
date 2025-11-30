@@ -1,11 +1,14 @@
 package com.hackathon.backend.controllers;
 
+import com.hackathon.backend.domain.LoginDto;
 import com.hackathon.backend.domain.UserDto;
+import com.hackathon.backend.domain.UserEntity;
 import com.hackathon.backend.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -20,6 +23,12 @@ public class UserController {
     @PostMapping
     public ResponseEntity<UserDto> createUser(@RequestBody UserDto userDto) {
         return ResponseEntity.status(HttpStatus.CREATED).body(userService.createUser(userDto));
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<UserDto> login(@RequestBody LoginDto request) {
+        UserDto loggedIn = userService.login(request.getUserLogin(), request.getUserPassword());
+        return ResponseEntity.ok(loggedIn);
     }
 
     @GetMapping("/{id}")

@@ -25,7 +25,10 @@ public class UserEntity {
     private String userMail;
 
     @Column
-    private Integer userAge;
+    private String userPassword;
+
+    @Column
+    private String userAge;
 
     @Column
     private String userSex;
@@ -33,8 +36,9 @@ public class UserEntity {
     @Column
     private String userGeneratedGroup;
 
-    @Column(length = 1024)
-    private String userDescription;
+    @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
+    @JoinColumn(name = "desciption_id", unique = true)
+    private DescriptionEntity description;
 
     @Column(nullable = false)
     private Double userLocationLatitude;
