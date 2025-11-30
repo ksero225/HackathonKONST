@@ -1,3 +1,5 @@
 # Ignoruj pliki środowiskowe
 .env
 .env.*
+.json
+.json.*
