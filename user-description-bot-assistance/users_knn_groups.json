@@ -6,122 +6,89 @@
       19,
       20,
       24,
-      59
+      59,
+      11,
+      35,
+      55
     ],
     "topTraits": [
       "jachty",
-      "programowanie",
-      "pływanie"
+      "pływanie",
+      "programowanie"
     ],
-    "latitude": 51.790068,
-    "longitude": 22.324848
+    "latitude": 52.19780125,
+    "longitude": 21.992638749999998
   },
   {
     "groupId": 2,
     "users": [
       2,
       7,
-      45,
       52,
       57,
       66,
-      67,
-      68
+      67
     ],
     "topTraits": [
       "jachty",
       "gotowanie",
       "taniec"
     ],
-    "latitude": 52.1670675,
-    "longitude": 21.2078725
+    "latitude": 52.18626166666667,
+    "longitude": 21.153921666666665
   },
   {
     "groupId": 3,
     "users": [
-      93,
+      68,
       97,
       100
     ],
     "topTraits": [
       "muzyka",
       "gotowanie",
-      "programowanie"
+      "gry"
     ],
-    "latitude": 52.07118333333333,
-    "longitude": 21.267043333333334
+    "latitude": 52.18466,
+    "longitude": 21.255589999999998
   },
   {
     "groupId": 4,
     "users": [
       3,
+      4,
       12,
       14,
-      35,
-      36,
-      55,
+      53,
+      95,
       99
     ],
     "topTraits": [
-      "rower",
       "programowanie",
-      "muzyka"
+      "rower",
+      "jachty"
     ],
-    "latitude": 52.90275285714286,
-    "longitude": 20.990034285714284
+    "latitude": 52.94369142857143,
+    "longitude": 20.771434285714285
   },
   {
     "groupId": 5,
     "users": [
-      4,
-      23,
-      33,
-      53,
-      54,
-      75
+      5,
+      22,
+      30,
+      83
     ],
     "topTraits": [
-      "rower",
-      "jachty",
-      "bieganie"
+      "muzyka",
+      "gry",
+      "pływanie"
     ],
-    "latitude": 52.764435,
-    "longitude": 20.449021666666667
+    "latitude": 52.3623675,
+    "longitude": 22.0475925
   },
   {
     "groupId": 6,
-    "users": [
-      82,
-      90,
-      95
-    ],
-    "topTraits": [
-      "gotowanie",
-      "jachty",
-      "pływanie"
-    ],
-    "latitude": 52.95532333333333,
-    "longitude": 20.37647
-  },
-  {
-    "groupId": 7,
-    "users": [
-      5,
-      30,
-      46,
-      83,
-      94
-    ],
-    "topTraits": [
-      "gry",
-      "rower",
-      "taniec"
-    ],
-    "latitude": 52.395604000000006,
-    "longitude": 22.200986
-  },
-  {
-    "groupId": 8,
     "users": [
       6,
       10,
@@ -138,10 +105,11 @@
     "longitude": 19.183264
   },
   {
-    "groupId": 9,
+    "groupId": 7,
     "users": [
       8,
       16,
+      36,
       37,
       39,
       40,
@@ -149,14 +117,14 @@
     ],
     "topTraits": [
       "gry",
-      "gotowanie",
-      "muzyka"
+      "pływanie",
+      "gotowanie"
     ],
-    "latitude": 52.52809333333334,
-    "longitude": 20.790876666666666
+    "latitude": 52.55827,
+    "longitude": 20.785392857142856
   },
   {
-    "groupId": 10,
+    "groupId": 8,
     "users": [
       72,
       79,
@@ -171,7 +139,7 @@
     "longitude": 20.812906666666667
   },
   {
-    "groupId": 11,
+    "groupId": 9,
     "users": [
       9,
       21,
@@ -188,78 +156,47 @@
     "longitude": 21.21852
   },
   {
-    "groupId": 12,
+    "groupId": 10,
     "users": [
-      11,
       13,
-      22,
-      29,
       31,
-      34,
-      48
+      46,
+      76,
+      94
     ],
     "topTraits": [
-      "pływanie",
       "rower",
-      "programowanie"
-    ],
-    "latitude": 52.88256857142857,
-    "longitude": 21.984754285714285
-  },
-  {
-    "groupId": 13,
-    "users": [
-      50,
-      69,
-      76
-    ],
-    "topTraits": [
-      "taniec",
       "programowanie",
-      "rower"
-    ],
-    "latitude": 52.80146,
-    "longitude": 21.790630000000004
-  },
-  {
-    "groupId": 14,
-    "users": [
-      15,
-      28,
-      38,
-      41
-    ],
-    "topTraits": [
-      "rower",
-      "bieganie",
       "taniec"
     ],
-    "latitude": 52.43141,
-    "longitude": 20.05098
+    "latitude": 52.849726,
+    "longitude": 22.325152
   },
   {
-    "groupId": 15,
+    "groupId": 11,
     "users": [
+      15,
       17,
-      27,
       32,
-      77,
+      38,
+      41,
       78,
       86
     ],
     "topTraits": [
       "taniec",
-      "jachty",
-      "muzyka"
+      "rower",
+      "jachty"
     ],
-    "latitude": 52.348238333333335,
-    "longitude": 19.904723333333333
+    "latitude": 52.38419285714286,
+    "longitude": 19.901314285714285
   },
   {
-    "groupId": 16,
+    "groupId": 12,
     "users": [
       18,
       26,
+      27,
       43,
       49,
       61,
@@ -270,11 +207,11 @@
       "pływanie",
       "taniec"
     ],
-    "latitude": 52.726845,
-    "longitude": 19.62536
+    "latitude": 52.675375714285714,
+    "longitude": 19.649221428571426
   },
   {
-    "groupId": 17,
+    "groupId": 13,
     "users": [
       92,
       96,
@@ -289,25 +226,64 @@
     "longitude": 19.612386666666666
   },
   {
-    "groupId": 18,
+    "groupId": 14,
+    "users": [
+      23,
+      28,
+      33,
+      54,
+      75,
+      77,
+      82,
+      90
+    ],
+    "topTraits": [
+      "pływanie",
+      "taniec",
+      "jachty"
+    ],
+    "latitude": 52.67727125,
+    "longitude": 20.34105375
+  },
+  {
+    "groupId": 15,
     "users": [
       25,
       44,
+      45,
       60,
       71,
       80,
-      91
+      91,
+      93
     ],
     "topTraits": [
-      "rower",
-      "taniec",
-      "gotowanie"
+      "gotowanie",
+      "programowanie",
+      "muzyka"
     ],
-    "latitude": 51.72383,
-    "longitude": 21.596931666666666
+    "latitude": 51.77769,
+    "longitude": 21.544425
   },
   {
-    "groupId": 19,
+    "groupId": 16,
+    "users": [
+      29,
+      34,
+      48,
+      50,
+      69
+    ],
+    "topTraits": [
+      "taniec",
+      "bieganie",
+      "programowanie"
+    ],
+    "latitude": 52.799576,
+    "longitude": 21.708118000000002
+  },
+  {
+    "groupId": 17,
     "users": [
       42,
       47,
@@ -325,7 +301,7 @@
     "longitude": 19.546713333333333
   },
   {
-    "groupId": 20,
+    "groupId": 18,
     "users": [
       64,
       70,
@@ -338,5 +314,30 @@
     ],
     "latitude": 51.72088333333334,
     "longitude": 20.454606666666667
+  },
+  {
+    "groupId": 19,
+    "users": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "topTraits": [],
+    "latitude": 50.2857728,
+    "longitude": 18.6580992
+  },
+  {
+    "groupId": 20,
+    "users": [
+      107,
+      108,
+      109
+    ],
+    "topTraits": [],
+    "latitude": 50.2857728,
+    "longitude": 18.6580992
   }
 ]

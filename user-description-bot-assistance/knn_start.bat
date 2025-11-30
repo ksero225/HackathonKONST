@@ -6,4 +6,4 @@ REM Aktywuj wirtualne środowisko (ścieżka względna do venv)
 call venv\Scripts\activate.bat
 
 REM Odpal uvicorn
-python -m knn_gruping.main
+python -m knn_grouping.main
